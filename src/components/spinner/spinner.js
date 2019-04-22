@@ -1,9 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './spinner.css';
 
 const Spinner = () => {
     return (
-        <p>loading...</p>
+        <div className="lds-css ng-scope">
+            <div style={{width:100+'%',height:100+'%'}} className="lds-double-ring">
+                <div></div>
+                <div></div>
+            </div>
+            <style type="text/css">
+            </style>
+        </div>
     );
 };
 
