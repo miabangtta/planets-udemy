@@ -11,18 +11,18 @@ const Header = () => {
                     Star DB
                 </a>
             </h3>
-            <ul className="d-flex">
-                <li>
+            <ul className="d-flex header-list">
+                <li className="header-item">
                     <a href="/">
                         People
                     </a>
                 </li>
-                <li>
+                <li className="header-item">
                     <a href="/">
                         Planets
                     </a>
                 </li>
-                <li>
+                <li className="header-item">
                     <a href="/">
                         Starships
                     </a>
